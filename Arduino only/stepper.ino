@@ -109,7 +109,7 @@ void loop() {
 
   mDoSteps(100); // Move motor 100 half-steps.
   /*** 
-  	  This is a 1 second delay with a motorOff() in it, the reason way you do not turn the motor off right after you doing steps, 
+  	  This is a 1 second delay with a motorOff() in it, the reason way you do not turn the motor off right after you doing steps,
   	  is that it got moment of inertia and will continue moving a uncontrolled few steps more than commanded. 
 	    In general it is not good idea to turn off the motor, but a voltage regulator on the motor would be required due to the impedance in the motor if not turned off.
   ***/
