@@ -1,2 +1,2 @@
-Bi-polar-stepper-motor-controled-by-arduino-with-ui-in-processing
+Bipolar stepper motor controled by arduino with ui in processing
 =================================================================
